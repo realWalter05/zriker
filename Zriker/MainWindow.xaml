@@ -1,0 +1,44 @@
+﻿<Window x:Class="Zriker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zriker"
+        WindowStartupLocation="Manual"
+        mc:Ignorable="d"
+        Title="Zorifikation" Height="180" Width="800"
+        Name="Zorification" Icon="idea.ico">
+   
+        <Grid x:Name="grid" x:FieldModifier="private" Margin="0,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="120"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <RichTextBox x:Name="richTextBox" HorizontalAlignment="Stretch" Block.LineHeight="2" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="1"/>
+            <TextBox x:Name="userTime" HorizontalAlignment="Center" VerticalAlignment="Bottom" PreviewKeyDown="DisableSelectedTime" Height="30" Width="120" Grid.Column="2" Grid.Row="0"></TextBox>
+            <Label x:Name="userTimeLabel" Content="Zadejte v minutách:" Grid.Row="0" Grid.Column="2" Target="{Binding ElementName=userTime}" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top"></Label>
+            <ListBox x:Name="userListTime" Grid.Row="0" Grid.Column="1">
+                <ListBoxItem>5 minut</ListBoxItem>
+                <ListBoxItem>10 minut</ListBoxItem>
+                <ListBoxItem>15 minut</ListBoxItem>
+                <ListBoxItem>30 minut</ListBoxItem>
+                <ListBoxItem>45 minut</ListBoxItem>
+                <ListBoxItem IsSelected="True">1 hodina</ListBoxItem>
+                <ListBoxItem>2 hodiny</ListBoxItem>
+                <ListBoxItem>3 hodiny</ListBoxItem>
+                <ListBoxItem>4 hodiny</ListBoxItem>
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"></StackPanel>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+            </ListBox>
+            <Button x:Name="startTimer" Content="Začít" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Grid.Row="1" Click="StartTimer" Background="#FF1B1B1B" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="16"></Button>
+            <Image Source="getidea.png"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="0" Grid.RowSpan="2" Grid.Column="0"/>
+        </Grid>
+</Window>

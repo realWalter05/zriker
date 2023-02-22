@@ -1,0 +1,22 @@
+﻿<Window x:Class="Zriker.Popup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zriker" 
+        mc:Ignorable="d"
+        WindowStartupLocation="Manual"
+        Title="Zorifikation - Messages" Icon="idea.ico" Height="100" Width="600">
+    <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Image Source="sayidea.png" Grid.Column="0" Grid.Row="0" Margin="5 0 0 0"></Image>
+            <TextBlock Margin="10,10,10,10" x:Name="message" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="0" FontFamily="Liberation Serif" FontSize="16"></TextBlock>
+        </Grid>
+</Window>
+    

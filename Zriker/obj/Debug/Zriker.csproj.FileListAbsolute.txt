@@ -1,0 +1,17 @@
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\bin\Debug\Zriker.exe.config
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\bin\Debug\Zriker.exe
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\bin\Debug\Zriker.pdb
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\Zriker.csprojAssemblyReference.cache
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\MainWindow.g.cs
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\App.g.cs
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\Zriker_MarkupCompile.cache
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\Zriker_MarkupCompile.lref
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\MainWindow.baml
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\Zriker.g.resources
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\Zriker.Properties.Resources.resources
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\Zriker.csproj.GenerateResource.cache
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\Zriker.exe
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\Zriker.pdb
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\App.baml
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\Popup.g.cs
+C:\Programming\App development\WPF\Projects\Zriker\Zriker\obj\Debug\Popup.baml
